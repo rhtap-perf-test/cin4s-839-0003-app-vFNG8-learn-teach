@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-bjox
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/cin4s-839-0003-tenant/cin4s-839-0003-app/devfile-sample-bjox@sha256:adb292a9dbb8b6da19453ac9eed0d7b35f644382eea378328327470c770741be
         name: my-nodejs
         ports:
         - containerPort: 3001
